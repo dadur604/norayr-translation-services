@@ -161,6 +161,21 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
+	
+	ul.no-bullet {
+		list-style-type: none;
+	}
+	
+
+	@media screen and (max-width: 736px) and (orientation: portrait) {
+			ul.no-bullet {
+				padding-left: 0;
+			}
+			
+			ul.no-bullet > li {
+				padding-left: 0;
+			}
+	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
