@@ -36,6 +36,12 @@ ol, ul {
 	list-style: none;
 }
 
+figcaption {
+	margin-top: 1em;
+	line-height: 1.2em;
+	font-size: 0.7em;
+}
+
 blockquote, q {
 	quotes: none;
 }
